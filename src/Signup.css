@@ -1,0 +1,217 @@
+.body{
+    direction: ltr;
+}
+.signup__header {
+    font-size: 36px;
+    color: #333;
+    font-weight: 600;
+    direction: ltr;
+    line-height: 1.34;
+}
+
+.signup__sub__header {
+    color: #1d2129;
+    font-size: 19px;
+    font-weight: normal;
+    direction: ltr;
+    line-height: 1.34;
+}
+
+.signup {
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.signup__form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.signup__fln,
+.signup__email,
+.signup__password {
+    display: flex;
+    box-sizing: border-box;
+    background-color: white;
+    overflow: hidden;
+    margin-top: 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.signup__fln input {
+    height: 25px;
+    width: 172px;
+    /* font-size: 30px; */
+    padding: 8px 10px;
+    border-color: #bdc7d8;
+    border-radius: 5px;
+    border: 1px solid #ccd0d5;
+    background-color: transparent;
+    color: #1c1e21;
+    font: 400 18px Arial;
+    cursor: text;
+    direction: ltr;
+
+}
+
+.signup__fln :nth-child(2) {
+    margin-left: 10px;
+}
+
+.signup__fln input::placeholder,
+.signup__password input::placeholder,
+.signup__email input::placeholder {
+    font-size: 18px;
+    /* padding: 8px 10px; */
+    box-sizing: border-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #999;
+    cursor: text;
+    height: 100%;
+    direction: ltr;
+    line-height: 1.34;
+    width: 100%;
+}
+
+
+.signup__password input,
+.signup__email input {
+    height: 25px;
+    width: 377px;
+    padding: 8px 10px;
+    border-color: #bdc7d8;
+    border-radius: 5px;
+    border: 1px solid #ccd0d5;
+    background-color: transparent;
+    color: #1c1e21;
+    font: 400 18px Arial;
+    cursor: text;
+    direction: ltr;
+}
+
+.signup__dob__label,.signup__gender__label {
+
+    color: #90949c;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    direction: ltr;
+    line-height: 1.34;
+}
+
+.form-control {
+    border: none;
+    font-size: 13px;
+    height: 30px;
+    padding: 5px;
+    background-color: #fff;
+    color: #1c1e21;
+    direction: ltr;
+    line-height: 1.34;
+    vertical-align: top;
+    margin-right: 2px;
+}
+select:not(:-internal-list-box) {
+    overflow: visible !important;
+}
+
+
+.gender__type{
+    color: #1d2129;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 18px;
+    padding:0 10px 0 3px;
+    cursor: default;
+    vertical-align: middle;
+}
+.gender__type input{
+    margin: 5px;
+}
+.gender__type span{
+    margin-right: 8px;
+    margin-left: 2px;
+}
+
+.signup__text{
+    color: #777;
+    font-size: 11px;
+    width: 316px;
+    margin: 1em 0;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-height: 1.34;
+    direction: ltr;
+}
+
+.signup__text a{
+    color: #385898;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.signup__text a:hover{
+    text-decoration: underline;
+}
+
+.signup__button{
+    font-size: 19px;
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+    font-weight: bold !important;
+    letter-spacing: normal;
+    text-rendering: optimizelegibility;
+    line-height: 126%;
+    min-width: 194px;
+    padding: 7px 20px;
+    text-align: center;
+    background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    border: 1px solid;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.signup__button:hover{
+    background: linear-gradient(#79bc64, #578843);
+}
+
+.signup__endtext{
+    border-top: 1px solid #dddfe2;
+    color: #666;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-top: 15px;
+    direction: ltr;
+    line-height: 1.34;
+}
+
+.signup__endtext a{
+    color: #385898;
+    cursor: pointer;
+    text-decoration: none;
+}
+.signup__endtext a:hover{
+    text-decoration: underline;
+}
+
+.que__logo{
+    padding-bottom: 5px;
+    padding-left: 5px;
+  
+}

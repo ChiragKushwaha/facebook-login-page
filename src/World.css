@@ -1,0 +1,15 @@
+.world__text{
+    color: #0e385f;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 29px;
+    margin-top: 25px;
+    width: 450px;
+    word-spacing: -1px;
+}
+
+.world__logo{
+    border: 0;
+    width: 536px;
+    height: 194px;
+}
